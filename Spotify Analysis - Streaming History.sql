@@ -1,4 +1,9 @@
--- Analyzing my Spotify streaming history to understand repeat behavior, time spent listening, and patterns in listening history.
+-- This project involves the analysis of my personal Spotify streaming data from 2024 to uncover patterns in my listening habits. The data, downloaded from my Spotify account, included four JSON files containing information about the artists, tracks, and
+-- total listening time. I combined these four streaming logs into a single full_history table to obtain the full year of streaming history.
+-- Analyses performed:
+	-- Repeat behavior: Looked at the frequency of repeat listening to tracks and artists. Created a 'Repeat Ratio' and categorized artists into types.
+	-- Listening trends over time: Analyzed total listening minutes by month, day of the week, and hour of the day to identify preferences and peak listening times.
+	-- Artist popularity: Ranked top artists based on total listening time and tracked their top songs. Explored listening time by quarters.
 
 
 select * from spotify.streaming0
