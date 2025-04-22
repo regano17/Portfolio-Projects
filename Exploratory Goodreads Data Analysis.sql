@@ -1,3 +1,10 @@
+-- In this project, I performed MySQL queries to analyze and gain insights from my personal reading dataset from Goodreads.
+-- I focused on several aspects, including the books I've read, ratings, and publisher data.
+	-- Compared my ratings with the average ratings given by other Goodreads users.
+	-- Categorized books into 4 groups based on ratings.
+	-- Identified when I added books and number of pages.
+
+
 select *
 from goodreads;
 
